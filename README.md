@@ -8,7 +8,7 @@ Coletores de dados de API's REST em Python.
 
 ## Instruções de execução
 
-O trabalho foi feito utilizando **Python3.9**, portandto se faz necessário utilizar um interpretador Python.
+O trabalho foi feito utilizando **Python3.9**, portanto se faz necessário utilizar um interpretador Python.
 
 Primeiro, instale as dependências necessárias executando o seguinte comando no terminal:
 
@@ -24,7 +24,7 @@ python collector.py -a {nome_api} -f {dir} -k {key}
 Os parâmetro necessários são:
 
 - **-a, --api-name:** Nome da api que deseja consultar [Obrigatório]
-- **-f, --file:** Diretório onde será salvo o resultado da consulta [Obrigatório]
+- **-f, --file:** Caminho para o arquivo onde será salvo o resultado da consulta [Obrigatório]
 - **-k, --key:** Chave de acesso a API [Opcional]
 
 Todos os comandos para CLI podem ser visualidos com:
